@@ -1,0 +1,51 @@
+
+
+.image{
+    object-fit: contain;
+    height:150px;
+    max-width: 150px;
+    padding-left: 74px;
+    padding-top: 14px;
+}
+.image:hover{
+   cursor: pointer;
+}
+
+
+.products{
+   display: grid;
+   grid-template-columns: repeat(4,305px);
+   padding-left: 60px;
+   padding-top: 129px;
+   
+   
+   
+}
+.card{
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-right: 20px;
+  
+    
+}
+
+.title{
+    font-size: medium;
+    max-width: 80%;
+    color:rgb(29, 19, 120);
+    padding-left: 32px;
+   
+}
+
+.title:hover{
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    
+}
+.price{
+   text-align: center;
+    color:#ff2300;
+}

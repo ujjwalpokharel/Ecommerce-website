@@ -1,0 +1,35 @@
+.cartitem{
+    padding-top: 120px;
+    
+    
+}
+.cartitem__layot{
+    display: flex;
+   align-items:center;
+   max-width: 380px;
+   justify-content: space-between;
+}
+ .cartitem__image{
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+ }
+.cartitem__title{
+    color: black;
+    max-width: 150px;
+}
+.cartitem__price{
+    color: red;
+}
+
+.cartitem__button{
+    max-width: 30px;
+    max-height: 30px;
+   
+}
+.cartitem__button:hover{
+    cursor: pointer;
+}
+.cartitem__totalprice{
+    color:red
+}

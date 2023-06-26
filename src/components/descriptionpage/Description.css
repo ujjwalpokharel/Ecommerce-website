@@ -1,0 +1,38 @@
+.productdata{
+    display: flex;
+     justify-content: space-around;
+    padding-top: 130px;
+    max-width: 1200px;
+ 
+}
+.carousel{
+    max-width: 300px;
+    max-height: 500px;
+   
+}
+ .productdatalayot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 345px;
+    
+    
+
+ }
+
+ .productdatalayot__titles{
+    max-width: 500px;
+    color:rgb(177 0 250);
+    font-size: 24px;
+   
+ }
+ .productdatalayot__descriptions{
+    max-width: 300px;
+    color: black ;
+    font-size: 18px;
+ }
+
+.productdatalayot__prices{
+    color: red;
+}

@@ -1,0 +1,75 @@
+.nav{
+   display: flex;
+    
+    width: 100%;
+    height: 100px;
+    background-color: rgb(42, 40, 40);
+    position: fixed;
+    z-index: 2;
+}
+.logo{
+    max-height: 100px;
+    object-fit: contain;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.logotext{
+    color: white;
+    padding-top: 50px;
+    font-family:fantasy;
+}
+.search{
+    padding: 10px;
+    width: 600px;
+    margin-right: 10px;
+}
+
+.formdata{
+    display: flex;
+    margin: 25px;
+    margin-left: 180px;
+    
+    
+}
+.buttons{
+    padding: 5px;
+    border-radius: 13px;
+    display: inline;
+}
+.buttons:hover{
+    cursor: pointer;
+    color: rgb(243, 64, 24);
+}
+.cartlogo{
+    max-width: 50px;
+    object-fit: contain;
+    margin-left: 89px;
+    margin-top: 5px;
+    
+}
+.cartlogo:hover{
+    transform:scale(1.03);
+    cursor: pointer;
+}
+.cardcount{
+    color: white;
+    margin-top: 25px;
+    margin-left: -5px;
+    font-size: 26px;
+
+   
+}
+.logoutbutton{
+   max-height: 50px; 
+   max-width: 100px;
+   background-color: rgb(42, 40, 40);
+   color: aqua;
+   font-size: large;
+   margin-top: 30px;
+   margin-left: 20px;
+}
+
+
+
+
